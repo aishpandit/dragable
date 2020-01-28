@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+<link rel="stylesheet" href="form.css">
+  <script src="form.js" type="text/javascript">
+	
+
+</script>
+</head>
+<body>
+<div id="div1">
+<form action="#" method="post" onsubmit="return validate()">
+<center>
+<table id="table1">
+<br><br>
+  <tr>
+       <td>Client Name :</td>
+        <td>&nbsp;&nbsp;&nbsp;<input type="text" name="name" id="name"><br><br></td>
+  </tr>
+  <tr>
+        <td>priority : </td>
+        <td> &nbsp;&nbsp;&nbsp;<select id="priority">
+             <option>p1</option>
+             <option>p2</option>
+             <option>p3</option>
+             <option>p4</option>
+             </select><br><br></td>
+
+  </tr>
+  <tr>
+        <td>Type : </td>
+        <td> &nbsp;&nbsp;&nbsp;<select id="type">
+            <option>Incidence</option>   	
+            <option>Task</option>   	
+            <option>Change Request</option>   	
+            <option>Other</option>   	
+            </select><br><br></td>
+  </tr>
+  <tr>
+        <td> Issue : </td>
+        <td>&nbsp;&nbsp;&nbsp;<input type="text" name="issue" id="issue"><br><br></td>
+
+  </tr>
+  <tr>      
+        <td> Description : </td>
+        <td>&nbsp;&nbsp;&nbsp;<textarea rows="6" cols="25" id="desc"></textarea><br><br></td>
+  </tr>
+  <tr>      
+        <td>Attachment : </td>
+        <td> &nbsp;&nbsp;&nbsp;<input type="file" name="pic" accept="image/*" id="attach"><br><br></td>
+  </tr>
+  <tr>      
+        <td>Status : </td>
+        <td> &nbsp;&nbsp;&nbsp;<select id="status">
+             <option>Open</option>
+             <option>Assigned</option>
+             <option>In Progress</option>
+             <option>On Hold</option>
+             <option>Close</option>
+             </select><br><br></td>
+  </tr>
+  <tr>           
+             <td>Remark : </td>
+             <td>&nbsp;&nbsp;&nbsp;<input type="text" name="remark" id="remark"><br><br></td>
+  </tr>
+  <tr>
+             <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit"  value="submit"></td>
+             <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="reset"></td>
+  </tr>
+ 
+  </table>
+  </center>
+  </form>
+  </div>
+</body>
+</html>
